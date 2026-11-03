@@ -1,0 +1,54 @@
+{
+  "cameras": [
+    {
+      "id": "CAM-01",
+      "name": "Главный вход",
+      "location": "1 этаж",
+      "status": "online",
+      "previewUrl": "",
+      "updatedAt": "2026-10-27T10:00:00Z"
+    },
+    {
+      "id": "CAM-02",
+      "name": "Лаборатория",
+      "location": "2 этаж",
+      "status": "online",
+      "previewUrl": "",
+      "updatedAt": "2026-10-27T10:00:00Z"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "motion",
+      "cameraId": "CAM-01",
+      "severity": "medium",
+      "message": "Обнаружено движение",
+      "createdAt": "2026-10-27T10:05:00Z"
+    }
+  ],
+  "incidents": [
+    {
+      "id": 1793698219076,
+      "title": "ayas",
+      "cameraId": "1",
+      "severity": "medium",
+      "description": "fighter",
+      "status": "resolved",
+      "assignee": null,
+      "createdAt": "2026-11-03T09:30:19.076Z",
+      "updatedAt": "2026-11-03T09:32:46.049Z"
+    },
+    {
+      "id": 1793698263859,
+      "title": "ayas",
+      "cameraId": "CAM-01",
+      "severity": "low",
+      "description": "ayasbek ",
+      "status": "resolved",
+      "assignee": null,
+      "createdAt": "2026-11-03T09:31:03.859Z",
+      "updatedAt": "2026-11-03T09:32:44.980Z"
+    }
+  ]
+}
